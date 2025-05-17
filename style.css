@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #fff;
+  color: #333;
+}
+
+header {
+  background: #f9f9f9;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.logo span {
+  font-size: 14px;
+  color: gray;
+}
+
+nav a, nav button {
+  margin-left: 15px;
+  text-decoration: none;
+  background: none;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#make-video {
+  background-color: #1abc9c;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 4px;
+}
+
+#youtube {
+  background-color: #e74c3c;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 4px;
+}
+
+.warning {
+  background: #ffeb99;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+main {
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th, td {
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+}
+
+footer {
+  background: #222;
+  color: white;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-links h4 {
+  margin-top: 0;
+}
+
+.footer-links a {
+  color: #ccc;
+  display: block;
+  margin-top: 5px;
+  text-decoration: none;
+}
